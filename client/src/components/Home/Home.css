@@ -1,0 +1,32 @@
+.main {
+  width: 100%;
+  position: relative;
+}
+.products {
+  position: absolute;
+  top: 22%;
+  left: 40%;
+}
+.myCompany {
+  position: absolute;
+  top: 26%;
+  left: 80%;
+}
+
+@media (max-width: 700px) {
+  .products {
+    width: 50%;
+    left: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .myCompanyMedia {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row !important;
+  }
+}
